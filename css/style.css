@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(270deg,#71b7e6,#1350f8);
+}
+.row .col-lg-12{
+    padding: 20px;
+}
+.center{
+    max-width: 380px;
+    padding: 10px 0 30px; 
+    border-bottom: 1px solid rgba(58,58,54);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(05, 0, 0,0.05);
+}
+.center h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: khmer OS Battambang;
+    border-bottom: 1px solid silver;
+}
+.top_center{
+    max-width: 1000px;
+    margin: auto;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 41px;
+    font-size: 16px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-family: khmer OS Battambang;
+    background: #2691d9;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+}
